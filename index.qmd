@@ -1,0 +1,37 @@
+---
+title: "coffee-map"
+author: "Shania JE Kimbrell"
+format: html
+editor: visual
+---
+
+```{r, echo = F, message = F, warning = F}
+library(leaflet)
+coffee <- leaflet () %>% addTiles() %>%
+  setView(-89.4289304, 43.0560357, zoom = 10) %>%
+  addMarkers(
+    lat = 43.1296061,
+    lng = -89.2950846, 
+    label = "Broken Board Coffee: **Espresso Lemonade** / **Sweet Potato Latte**") %>%
+  addMarkers(
+    lat = 42.3125535,
+    lng = -89.3597934, 
+    label = "Rosie's Coffee: **Vanilla Latte**") %>%
+  addMarkers(
+    lat = 43.077353,
+    lng = -89.3839609, 
+    label = "Bradbury's Coffee: **Featured Cortado** / **Free Spro February**") %>%
+  addMarkers(
+    lat = 43.0682734,
+    lng = -89.4235706, 
+    label = "Cafe Domestique: **Featured Capp**") %>%
+  addMarkers(
+    lat = 43.0570066,
+    lng = -89.4989154,
+    label = "Qamaria Coffee Company: **Qamaria Latte**") %>%
+  addMarkers(
+    lat = 43.0530501,
+    lng = -89.4353236,
+    label = "Madison Chocolate Company: **Ghost Pepper Latte** / **Strawberry Matcha**")
+coffee
+```
