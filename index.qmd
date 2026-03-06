@@ -1,5 +1,5 @@
 ---
-title: "coffee-map"
+title: "2025 Coffee Destinations"
 author: "Shania JE Kimbrell"
 format: html
 editor: visual
@@ -32,6 +32,19 @@ coffee <- leaflet () %>% addTiles() %>%
   addMarkers(
     lat = 43.0530501,
     lng = -89.4353236,
-    label = "Madison Chocolate Company: **Ghost Pepper Latte** / **Strawberry Matcha**")
+    label = "Madison Chocolate Company: **Ghost Pepper Latte** / **Strawberry Matcha**") %>%
+  addMarkers(
+    lat = 25.77427,
+    lng = -80.19366, 
+    label = "Naughty Coffee: **Pour Over**") %>%
+  addMarkers(
+    lat = 25.77454,
+    lng = -80.17088, 
+    label = "Virgin Voyages: Intelligensia Coffee") %>%
+  addMarkers(
+    lat = 19.75,
+    lng = -70.75, 
+    label = "El Rincon Del Cafe & Chocolate RD Umbrella Street")
+
 coffee
 ```
