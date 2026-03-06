@@ -44,7 +44,15 @@ coffee <- leaflet () %>% addTiles() %>%
   addMarkers(
     lat = 19.75,
     lng = -70.75, 
-    label = "El Rincon Del Cafe & Chocolate RD Umbrella Street")
+    label = "El Rincon Del Cafe & Chocolate RD Umbrella Street") %>%
+  addMarkers(
+    lat = 41.9782523,
+    lng = -87.9092355, 
+    label = "ORD Dunkin") %>%
+  addMarkers(
+    lat = 25.7974143,
+    lng = -80.2582743, 
+    label = "MIA Concourse H Starbucks: Do Not Travel in This Airport :(")
 
 coffee
 ```
