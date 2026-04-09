@@ -16,7 +16,7 @@ coffee <- leaflet () %>% addTiles() %>%
   addMarkers(
     lat = 42.3125535,
     lng = -89.3597934, 
-    label = "Rosie's Coffee: **Vanilla Latte**") %>%
+    label = "Rosie's Coffee: **Vanilla Latte** / **Banana Seasonal Latte**") %>%
   addMarkers(
     lat = 43.077353,
     lng = -89.3839609, 
@@ -52,7 +52,19 @@ coffee <- leaflet () %>% addTiles() %>%
   addMarkers(
     lat = 25.7974143,
     lng = -80.2582743, 
-    label = "MIA Concourse H Starbucks: Do Not Travel in This Airport :(")
+    label = "MIA Concourse H Starbucks: Do Not Travel in This Airport :(") %>%
+  addMarkers(
+    lat = 42.49662780761719,
+    lng = -90.66764068603516, 
+    label = "Monk's Kaffee: **Latte**") %>%
+  addMarkers(
+    lat = 42.50436756053503, 
+    lng = -90.66537604949919, 
+    label = "Charlotte's Coffee House: **Spring Matcha**") %>%
+  addMarkers(
+    lat = 43.304088, 
+    lng = -91.786108, 
+    label = "Impact Coffee: **Vanilla Mint Matcha** / **Aurora Matcha**")
 
 coffee
 ```
