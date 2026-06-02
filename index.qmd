@@ -64,7 +64,27 @@ coffee <- leaflet () %>% addTiles() %>%
   addMarkers(
     lat = 43.304088, 
     lng = -91.786108, 
-    label = "Impact Coffee: **Vanilla Mint Matcha** / **Aurora Matcha**")
+    label = "Impact Coffee: **Vanilla Mint Matcha** / **Aurora Matcha**") %>%
+  addMarkers(
+    lat = 40.7655643, 
+    lng = -111.8908202, 
+    label = "Three Pines Coffee: **Matcha** / **Drip**") %>%
+  addMarkers(
+    lat = 38.5435224, 
+    lng = -121.7386878, 
+    label = "Pachamama: **Pandan Matcha**") %>%
+  addMarkers(
+    lat = 38.54473876953125, 
+    lng = -121.739501953125, 
+    label = "Temple Coffee: **Strawberry Matcha**") %>%
+  addMarkers(
+    lat = 38.2327263, 
+    lng = -122.6140651, 
+    label = "Caffeine: **Strawberry Matcha**") %>%
+  addMarkers(
+    lat = 40.763676, 
+    lng = -111.9005558, 
+    label = "Old Cuss: **Blueberry Pie Latte**")
 
 coffee
 ```
