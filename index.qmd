@@ -1,5 +1,5 @@
 ---
-title: "2025 Coffee Destinations"
+title: "2026 Coffee Destinations"
 author: "Shania JE Kimbrell"
 format: html
 editor: visual
@@ -72,7 +72,7 @@ coffee <- leaflet () %>% addTiles() %>%
   addMarkers(
     lat = 38.5435224, 
     lng = -121.7386878, 
-    label = "Pachamama: **Pandan Matcha**") %>%
+    label = "Pachamama: **Pandan Matcha** / **Banana Matcha**") %>%
   addMarkers(
     lat = 38.54473876953125, 
     lng = -121.739501953125, 
@@ -84,7 +84,28 @@ coffee <- leaflet () %>% addTiles() %>%
   addMarkers(
     lat = 40.763676, 
     lng = -111.9005558, 
-    label = "Old Cuss: **Blueberry Pie Latte**")
+    label = "Old Cuss: **Blueberry Pie Latte**") %>%
+addMarkers(
+    lat = 38.5417644, 
+    lng = -121.7437224, 
+    label = "Frenzy Coffee: **Pandan Matcha**") %>%
+addMarkers(
+    lat = 46.4112745, 
+    lng = -86.654869, 
+    label = "Falling Rock Cafe & Bookstore: **Vanilla Latte**") %>%
+addMarkers(
+  lat = 46.672697,
+  lng = -85.98687,
+  label = "The Dream Bean: **Blueberry Matcha**") %>%
+addMarkers(
+  lat = 42.358461, 
+  lng = -82.9994988, 
+  label = "Washed Up Coffee: **Seasonal Tonic**")  %>%
+addMarkers(
+  lat = 42.2796815, 
+  lng = -83.7477287, 
+  label = "RoosRoast: **Latte**")
+
 
 coffee
 ```
